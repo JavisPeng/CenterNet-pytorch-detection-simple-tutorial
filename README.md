@@ -1,5 +1,7 @@
 # CenterNet-pytorch-detection-simple-tutorial
 
+A simple demo to study the CenterNet
+
 ## environment
 ```
 tqdm>=4.32.2
@@ -41,3 +43,5 @@ a output demo
 
 ## reference
 https://github.com/xingyizhou/CenterNet
+
+More detail in my blog https://blog.csdn.net/jiangpeng59/article/details/105732166
