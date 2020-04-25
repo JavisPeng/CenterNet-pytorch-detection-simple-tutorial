@@ -16,7 +16,7 @@ SeaShips dataset：7000 images，1920x1080 size，6 claases
 http://www.lmars.whu.edu.cn/prof_web/shaozhenfeng/datasets/SeaShips%287000%29.zip
 
 ## data preprocess
-dowload the SeaShips dataset and unzip 
+download the SeaShips dataset and unzip 
 ```shell
 git clone https://github.com/JavisPeng/CenterNet-pytorch-detection-simple-tutorial.git
 cd CenterNet-pytorch-detection-simple-tutorial/
