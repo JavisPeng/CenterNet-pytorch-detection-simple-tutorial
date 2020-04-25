@@ -26,7 +26,7 @@ unzip SeaShips(7000).zip
 python voc.py
 ```
 
-after run the commands above, you will get a Serialized outfile "data.pth",it is a dict={'classes_name': classes_name, 'train': train, 'val': val}, and the data format of train or val just like [(img_path,\[(bbox1,cls1),(bbox2,cls2),]) 
+after run the commands above, you will get a Serialized outfile "data.pth",it is a dict={'classes_name': classes_name, 'train': train, 'val': val}, and the data format of train or val just like [(img_path,[(bbox1,cls1),(bbox2,cls2),])..]
 
 ## train
 train a model from scrtch
