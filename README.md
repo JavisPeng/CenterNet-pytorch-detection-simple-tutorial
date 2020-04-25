@@ -35,12 +35,12 @@ python main.py train
 ```
 
 ## test
-predict a image
+predict a image, w.pth is trained model weight file
 ```
 python main.py test --ckpt w.pth --test_img_path VOC2007/JPEGImages/000001.jpg
 ```
 
-a output demo
+an output demo
 ![test_image](https://img-blog.csdnimg.cn/20200424211506362.jpg)
 
 ## reference
