@@ -48,7 +48,7 @@ class CTDataset(Dataset):
             reg[i] = center - center_int
             wh[i] = 1. * width, 1. * height
             reg_mask[i] = 1
-            ind[i] = center_int[1] * heatmap_size + center[0]
+            ind[i] = center_int[1] * heatmap_size + center_int[0]
             radius = utils.gaussian_radius((height, width))
             #半径保证为整数
             radius = max(0, int(radius))
